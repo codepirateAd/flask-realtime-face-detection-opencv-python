@@ -1,2 +1,1 @@
-web: gunicorn parse:app
-#not needed for running on localhost
+web: gunicorn app:app
